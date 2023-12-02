@@ -1,0 +1,68 @@
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive';
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.logo{
+    max-width: 130px;
+}
+.menu{
+    display: flex;
+    gap: 0.8rem;
+
+}
+.menu a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.conheca_mais{
+    height: 100vh;
+    background-image: url("https://wallpapers.com/images/hd/1920-x-1080-marvel-1xoxju5dijns0aud.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+  
+}
+.informacoes{
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1.2rem;
+    font-family: "Pacifico";
+    color: #1b1833
+}
+.informacoes h1{
+    font-size: 2rem;
+}
+.informacoes p{
+    font-family: "Rubik Bubbles";
+    font-size: 3rem;
+}
+
+.informacoes button{
+    font-family: "Pacifico";
+    font-size: 1.8rem;
+    padding: 0.4rem 1.4rem;
+    background-color: #1b1833;
+    color: whitesmoke;
+    border-radius: 0.9rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.informacoes button:hover{
+    transform: scale(1.1);
+}
